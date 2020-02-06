@@ -1,0 +1,135 @@
+html, body {
+    background-image: url("images/pixel-heart.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+header {
+    width: auto;
+    display: flex;
+    flex: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-right: 52%;
+    right:0px;
+    background: teal;
+    margin-left: 10%
+}
+
+footer {
+    height: 50px;
+    padding: 10px;
+    background: slategray;
+}
+
+.menu {
+    background: #ffffff;
+    display: flex;
+    flex: row;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+    padding: 10px;
+}
+
+.middle{
+    width: 960px;
+    min-height: 100%;
+    padding: 20px;
+    margin: 15px 15px 15px 15px;
+    background: whitesmoke;
+    margin-left: 10%;
+         }
+
+h1 {
+    color: teal;
+}
+
+p {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+form {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+
+img {
+    float: left;
+    width: 275px;
+    height: 200px;
+}
+
+.container {
+    width: 768px;
+}
+
+.adjust {
+    position: relative;
+    float: left;
+    margin: 2%;
+       }
+
+.desc {
+    position: absolute;
+    float: left;
+    width: 245px;
+    padding: 15px;
+    text-align: center;
+	background-color: teal;
+	color: white;
+	bottom: 30px;
+    }
+
+
+.img2 {
+    width: 150px;
+    height: 250px;
+    margin: 1%;
+}
+
+footer {
+    position: sticky;
+    place-content: bottom;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    .middle, .container, .form {
+        width: auto;
+        height: auto;
+    }
+    .header {
+        position: static;
+    }
+   }
+
+@media screen and (max-width: 768px) {
+    .middle, .container, .form {
+        width: auto;
+        height: auto;
+    }
+    .header {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .middle, .container, .form {
+        width: auto;
+        height: auto;
+    }
+    .header {
+        position: static;
+    }
+
+    
+}
